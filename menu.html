@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mang Inasal | Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @media (max-width: 768px) {
+            .menu-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+
+            .card-footer {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .card-footer .price {
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .btn {
+                font-size: 0.9rem;
+                padding: 0.5rem 1.2rem;
+            }
+
+            .logo {
+                width: 130px !important;
+            }
+
+            .section-title h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html">
+            <img class="logo" src="logo.png" style="width: 150px;">
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About</a>
+            <a href="login.html" class="btn" style="padding: 0.5rem 1rem; font-size: 0.9rem; white-space: nowrap;">Sign Up</a>
+        </nav>
+
+    </header>
+
+    <section id="menu">
+        <div class="section-title" style="margin-bottom: 2rem;">
+            <h2>Our Best Sellers</h2>
+        </div>
+
+        <div class="menu-grid">
+
+            <div class="card">
+                <img class="card-img" src="chickenpaa.webp">
+                <div class="card-content">
+                    <h3>Chicken Paa</h3>
+                    <p>Juicy chicken leg quarter grilled to perfection with our special marinade.</p>
+                    <div class="card-footer">
+                        <span class="price">₱132</span>
+                        <button class="add-to-cart">Add to Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="chickenpecho.webp">
+                <div class="card-content">
+                    <h3>Chicken Pecho</h3>
+                    <p>Tender chicken breast marinated in our signature blend of spices.</p>
+                    <div class="card-footer">
+                        <span class="price">₱157</span>
+                        <button class="add-to-cart">Add to Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="bbq.webp">
+                <div class="card-content">
+                    <h3>Pork BBQ (2 sticks)</h3>
+                    <p>Skewered pork marinated in our sweet and savory BBQ sauce.</p>
+                    <div class="card-footer">
+                        <span class="price">₱99</span>
+                        <button class="add-to-cart">Add to Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="palabok.png">
+                <div class="card-content">
+                    <h3>Palabok</h3>
+                    <p>Traditional Filipino rice noodles with shrimp sauce and toppings.</p>
+                    <div class="card-footer">
+                        <span class="price">₱89</span>
+                        <button class="add-to-cart">Add to Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="sisig.png">
+                <div class="card-content">
+                    <h3>Pork Sisig</h3>
+                    <p>A mouth-watering grilled & sautéed meaty dish with special dressing, chicharon, diced onion,
+                        sliced red & finger chili.</p>
+                    <div class="card-footer">
+                        <span class="price">₱99</span>
+                        <button class="add-to-cart">Add to Order</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="card-img" src="halohalo.png">
+                <div class="card-content">
+                    <h3>Extra Creamy Halo-Halo</h3>
+                    <p>Our famous dessert with layers of sweet ingredients and creamy milk.</p>
+                    <div class="card-footer">
+                        <span class="price">₱70</span>
+                        <button class="add-to-cart">Add to Order</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container row">
+            <div class="footer-col col-md-4" , align="center">
+                <h3>Mang Inasal Malolos</h3>
+                <p>Bringing the authentic flavors of Filipino grilled chicken to the historic city of Malolos since
+                    2010.</p>
+            </div>
+
+            <div class="footer-col col-md-4" , align="center">
+                <h3>Follow us</h3>
+                <ul class="footer-links">
+                    <li><a href="home.html">Facebook</a></li>
+                    <li><a href="menu.html">Instagram</a></li>
+                    <li><a href="about.html">Tiktok</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col col-md-4" , align="center">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Mang Inasal Malolos Bayan, Malolos, Bulacan</p>
+                <p><i class="fas fa-phone"></i> (044) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> malolos@manginasal.com</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>2025 Mang Inasal Malolos. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
