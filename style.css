@@ -499,6 +499,14 @@ footer {
     flex-direction: column;
     padding: 1rem;
   }
+
+   .header-btn {
+    width: auto !important;
+    max-width: 160px;
+    align-self: flex-end;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+  }
   
   nav {
     margin: 1rem 0;
